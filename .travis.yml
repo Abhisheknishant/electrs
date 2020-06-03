@@ -2,7 +2,9 @@ language: rust
 
 rust:
   - stable
-
+arch:
+    - amd64
+    - arm64
 cache: cargo
 
 before_script:
